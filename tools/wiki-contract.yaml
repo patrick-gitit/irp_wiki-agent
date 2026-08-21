@@ -1,0 +1,23 @@
+schema_version: 1
+agent: wiki-agent
+generic_registers:
+  - inbox
+  - questions
+  - decisions
+  - findings
+  - proposals
+  - plans
+  - tasks
+  - logs
+  - ingest
+  - _archive
+capabilities:
+  - maintain-wiki-scaffold
+  - inventory-inbox
+  - decompose-claims
+  - classify-authority
+  - route-artifacts
+  - ingest-and-archive
+  - audit-wiki
+  - manage-plan-task-lifecycle
+mutation_default: diagnose-and-propose
