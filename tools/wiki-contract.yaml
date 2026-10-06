@@ -1,7 +1,7 @@
 schema_version: 1
 agent: wiki-agent
 generic_registers:
-  - inbox
+  - _inbox
   - questions
   - decisions
   - findings
@@ -9,7 +9,7 @@ generic_registers:
   - plans
   - tasks
   - logs
-  - ingest
+  - _ingest
   - _archive
 capabilities:
   - maintain-wiki-scaffold
